@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Donotif!</title>
+	<script language="Javascript" src="./js/jquery-3.1.0.min.js"></script>
+	<script language="Javascript" src="./js/bootstrap.min.js"></script>
+	
+	<!-- Bootstrap core CSS -->
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+<body>
+    <script>
+	    jQuery(function () {
+	        jQuery('#myTab a:last').tab('show')
+	    })    
+    </script>
+    
+	<ul class="nav nav-tabs" id="main-tab">
+	  	<li class="active" style="border-top:solid 10px green;margin:0px;padding:0px;"><a data-target="#do" data-toggle="tab">Do</a></li>
+	  	<li style="border-top:solid 10px red;margin:0px;padding:0px;"><a data-target="#donot" data-toggle="tab">Do not</a></li>
+	</ul>
+	
+	<div class="tab-content">
+		<div class="tab-pane active" id="do" style="padding:5px;">Do - section pending</div>
+		<div class="tab-pane" id="donot" style="padding:5px;">Do not - section pending</div>
+	</div>
+</body>
+</html>
